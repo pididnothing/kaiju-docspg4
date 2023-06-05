@@ -1,0 +1,74 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexitem {
+    width: 10%;
+    height: 60px;
+}
+
+#title {
+    width: 100%;
+    font-family: 'Raleway';
+    font-size: 100px;
+    font-weight: bolder;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#title img {
+    height: 200px;
+}
+
+#navigation {
+    position: sticky;
+    top: 0px;
+    align-self: baseline;
+}
+
+#flex2 {
+    background-color: aqua;
+    align-self: flex-end;
+}
+
+#flex3 {
+    background-color: azure;
+    align-self: first baseline;
+}
+
+#flex4 {
+    background-color: aquamarine;
+}
+
+#flex5 {
+    background-color: bisque;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: xx-large;
+    color: orangered;
+    padding-inline-start: 10px;
+
+}
+
+nav a:hover {
+    color: orange;
+}
+
+nav {
+    background-color: rgb(20, 40, 70);
+    overflow: hidden;
+    width: 100% !important;
+    height: fit-content !important;
+    padding: 5px;
+}
